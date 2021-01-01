@@ -71,8 +71,8 @@ public class HeartRate {
 
     public String toString()
     {
-        return String.format("%s: %s%n%s: %d/%d/%d", "Name", getFirstName() + " " + getLastName(), 
+        return String.format("%s: %s%n%s: %d/%d/%d%n%s: %d", "Name", getFirstName() + " " + getLastName(), 
         "Date of Birth", this.dateOfBirth.get(Calendar.DAY_OF_MONTH), this.dateOfBirth.get(Calendar.MONTH),
-        this.dateOfBirth.get(Calendar.YEAR));
+        this.dateOfBirth.get(Calendar.YEAR), "Age: ", calculateAge());
     }
 }
