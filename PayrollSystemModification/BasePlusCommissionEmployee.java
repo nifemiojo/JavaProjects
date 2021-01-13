@@ -5,7 +5,7 @@ public class BasePlusCommissionEmployee extends CommissionEmployee
 {
    private double baseSalary; // base salary per week
 
-   // constructor
+   // constructor - added in birthDate
    public BasePlusCommissionEmployee(String firstName, String lastName, 
       String socialSecurityNumber, Date birthDate, double grossSales,
       double commissionRate, double baseSalary)

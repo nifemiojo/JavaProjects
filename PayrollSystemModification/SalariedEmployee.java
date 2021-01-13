@@ -5,7 +5,7 @@ public class SalariedEmployee extends Employee
 {
    private double weeklySalary;
 
-   // constructor
+   // constructor - added in birthDate
    public SalariedEmployee(String firstName, String lastName, 
       String socialSecurityNumber, Date birthDate, double weeklySalary)
    {

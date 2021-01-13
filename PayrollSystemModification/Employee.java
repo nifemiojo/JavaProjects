@@ -3,12 +3,13 @@
 
 public abstract class Employee 
 {
+   // added private instance variable birthDate
    private final String firstName;
    private final String lastName;
    private final String socialSecurityNumber;
    private final Date birthDate;
 
-   // constructor
+   // constructor - added the birthDate to constructor
    public Employee(String firstName, String lastName, 
       String socialSecurityNumber, Date birthDate)
    {
@@ -36,12 +37,13 @@ public abstract class Employee
       return socialSecurityNumber;
    } 
 
+   //My Additions
    public Date getDateOfBirth()
    {
       return this.birthDate;
    }
 
-   // return String representation of Employee object
+   // return String representation of Employee object - added also a return of the string version of DOB
    @Override
    public String toString()
    {

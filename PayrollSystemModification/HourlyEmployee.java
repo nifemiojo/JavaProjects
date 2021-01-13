@@ -6,7 +6,7 @@ public class HourlyEmployee extends Employee
    private double wage; // wage per hour
    private double hours; // hours worked for week
 
-   // constructor
+   // constructor - added in birthDate
    public HourlyEmployee(String firstName, String lastName,
       String socialSecurityNumber, Date birthDate, double wage, double hours)
    {

@@ -6,7 +6,7 @@ public class CommissionEmployee extends Employee
    private double grossSales; // gross weekly sales
    private double commissionRate; // commission percentage
 
-   // constructor
+   // constructor - added in birthDate
    public CommissionEmployee(String firstName, String lastName, 
       String socialSecurityNumber, Date birthDate, double grossSales, 
       double commissionRate)
