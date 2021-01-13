@@ -22,3 +22,5 @@ PayrollSystemTest.java:
 -Loops through each month of the year, polymorphically determining if the employee's birthday is the current month (Lines 54-81)
 -Adds 100 to earnings if it is employee's birth month
 -No birthdays, prints out no birthday's this month
+
+See terminaloutput.png
