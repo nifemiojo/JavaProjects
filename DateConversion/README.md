@@ -1,7 +1,7 @@
 # Date Formatter
 
 ## Example
-**results.png**
+![results](./results.png "results")
 
 ## Programming Principles
 - Regular Expressions and Pattern Matching
